@@ -1,0 +1,48 @@
+main #board_title {
+    margin-top: 20px;
+    border-bottom: solid 1px #bbbbbb;
+    padding: 0 0 5px 0;
+}
+
+main table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+main table th {
+    height: 30px;
+    border-top: solid 2px #aaaaaa;
+    background-color: #eeeeee;
+}
+
+main table td {
+    border-bottom: solid 1px #cccccc;
+}
+
+main table td.col1 {
+    border-right: solid 1px #cccccc;
+    text-align: center;
+}
+
+main table td.col2 {
+    padding: 5px 0 5px 10px;
+}
+
+main #subject input {
+    width: 550px;
+}
+
+main #upload input {
+}
+
+main #content textarea {
+    width: 550px;
+    height: 200px;
+}
+
+main #buttons {
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+}

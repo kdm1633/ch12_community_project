@@ -1,0 +1,104 @@
+/* board_list */
+
+main #board_title {
+    margin-top: 20px;
+    border-bottom: solid 1px #bbbbbb;
+    padding: 0 0 5px 0;
+}
+
+main #total_search {
+    position: relative;
+    height: 40px;
+    /* border: solid 1px red; */
+}
+
+main #total {
+    position: absolute;
+    top: 10px;
+}
+
+main #search {
+    position: absolute;
+    left: 415px;
+    /* border: solid 1px red; */
+}
+
+main #search #select_img {
+    position: absolute;
+    top: 10px;
+}
+
+main #search #search_select {
+    position: absolute;
+    top: 10px;
+    left: 62px;
+}
+
+main #search #search_input {
+    position: absolute;
+    top: 9px;
+    left: 130px;
+}
+
+main #search input {
+    width: 150px;
+}
+
+main #search #search_button {
+    position: absolute;
+    top: 8px;
+    left: 290px;
+}
+
+/* board_list_table */
+
+main table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+main table th {
+    background-color: #eeeeee;
+    border-top: solid 1px #aaaaaa;
+}
+
+main table tr {
+    height: 30px;
+}
+
+main table td.col1 {
+    text-align: center;
+}
+
+main table td.col2 {
+}
+
+main table td.col3 {
+    text-align: center;
+}
+
+main table td.col4 {
+    text-align: center;
+}
+
+main table td.col5 {
+    text-align: center;
+}
+
+main table td {
+    border-bottom: solid 1px #dddddd;
+}
+
+main #move_page {
+    margin-top: 20px;
+}
+
+main #move_page .prev_next {
+    float: left;
+    margin-left: 290px;
+}
+
+main #move_page .list_write {
+    float: right;
+}
